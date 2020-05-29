@@ -91,6 +91,7 @@ void tearDown() {
 ```
 
 - All test function name starts with `test_`.
+- Available assertions: [url](https://github.com/ThrowTheSwitch/Unity/blob/master/docs/UnityAssertionsReference.md)
 
 ## Step 3: Write Makefile
 
@@ -105,6 +106,10 @@ make
 ## Step 5: Run tests
 
 
+
+## More Examples
+
+[url](https://github.com/ThrowTheSwitch/Unity/tree/master/examples)
 
 ## Extra: Makefile notes
 
