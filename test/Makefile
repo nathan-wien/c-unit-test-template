@@ -15,7 +15,7 @@ UNITY_OBJS:=$(UNITY_DIR)/unity.o
 UNITY_CODEGEN:=$(UNITY_ROOT)/auto/generate_test_runner.rb
 
 TEST_DIR=.
-TEST_SRCS:=$(wildcard $(TEST_DIR)/*.c)
+TEST_SRCS:=$(TEST_DIR)/test.c $(TEST_DIR)/testRunner.c
 TEST_OBJS:=$(patsubst $(TEST_DIR)/%.c,$(TEST_DIR)/%.o,$(TEST_SRCS))
 
 ALL_SRCS:=$(SRCS) $(UNITY_SRCS) $(TEST_SRCS)
