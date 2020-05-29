@@ -5,7 +5,7 @@
 
 char* concat(const char* a, const char* b) {
     int len = strlen(a) + strlen(b) + 1;
-    char* res = malloc(len * sizeof(len));
+    char* res = malloc(len * sizeof(char));
     int j = 0;
 
     for (size_t i = 0; i < strlen(a) - 1; i++) {
